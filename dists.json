@@ -3,7 +3,11 @@
     "dglux_server": {
       "displayName": "DGLux Server",
       "latest": "157",
-      "file": "dglux_server.zip"
+      "file": "dglux_server.zip",
+      "wrappers": [
+        "server",
+        "daemon"
+      ]
     }
   }
 }
