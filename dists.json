@@ -5,7 +5,7 @@
       "latest": "179",
       "file": "dglux_server.zip",
       "wrappers": [
-        "server",
+        "dglux_server",
         "daemon"
       ]
     }
