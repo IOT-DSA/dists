@@ -6,7 +6,9 @@
       "file": "dglux_server.zip",
       "wrappers": [
         "dglux_server",
-        "daemon"
+        "daemon",
+        "users",
+        "configure"
       ],
       "directoryName": "dglux-server"
     }
