@@ -9,7 +9,8 @@
         "dglux_server",
         "daemon",
         "users",
-        "configure"
+        "configure",
+        "projects"
       ],
       "directoryName": "dglux-server"
     }
