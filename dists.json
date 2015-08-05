@@ -10,7 +10,8 @@
         "daemon",
         "users",
         "configure",
-        "projects"
+        "projects",
+        "server_watcher"
       ],
       "directoryName": "dglux-server"
     }
