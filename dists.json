@@ -13,7 +13,13 @@
         "projects",
         "server_watcher"
       ],
-      "directoryName": "dglux-server"
+      "directoryName": "dglux-server",
+      "update": {
+        "ignore": [
+          "bin/tools/nssm-x32.exe",
+          "bin/tools/nssm-x64.exe"
+        ]
+      }
     }
   }
 }
