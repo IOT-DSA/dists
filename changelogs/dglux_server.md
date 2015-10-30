@@ -10,7 +10,7 @@
 
 ## 565
 
-- Implement an 'Update All Components' action that streams a basic table of results.
+- Implement an 'Update All Components' action that streams a basic table of results from updating the server and all DSLinks.
 
 ## 560
 
