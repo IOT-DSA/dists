@@ -1,6 +1,10 @@
 # DGLux Server Changelog
 
-# 566
+## 567
+
+- Add a 'Start All Links' action that will start all links that are enabled if they are not already started.
+
+## 566
 
 - Reimplement results of the 'Update All Components' action so that it has a nicer output.
 
