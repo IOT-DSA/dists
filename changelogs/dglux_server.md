@@ -7,7 +7,7 @@
 
 ## 567
 
-- Add a `Start All Link`' action that will start all links that are enabled if they are not already started.
+- Add a `Start All Link` action that will start all links that are enabled if they are not already started.
 
 ## 566
 
