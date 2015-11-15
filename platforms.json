@@ -1,59 +1,57 @@
-{
-  "platforms": {
-    "windows-ia32": {
-      "displayName": "x86 Windows",
-      "super": "windows"
-    },
-    "windows-x64": {
-      "displayName": "x64 Windows",
-      "super": "windows"
-    },
-    "linux-ia32": {
-      "displayName": "x86 Linux",
-      "super": "linux"
-    },
-    "linux-x64": {
-      "displayName": "x64 Linux",
-      "super": "linux"
-    },
-    "linux-arm": {
-      "displayName": "ARM Linux",
-      "super": "linux"
-    },
-    "static-linux-x64": {
-      "displayName": "x64 Linux (Static GLibC)",
-      "super": "linux"
-    },
-    "macos-ia32": {
-      "displayName": "x86 Mac OS",
-      "super": "macos"
-    },
-    "macos-x64": {
-      "displayName": "x64 Mac OS",
-      "super": "macos"
-    },
-    "dreamplug": {
-      "displayName": "Dreamplug",
-      "super": "linux"
-    },
-    "mips-ci20": {
-      "displayName": "MIPS Creator CI20",
-      "super": "linux"
-    },
-    "am335x": {
-      "displayName": "am335x",
-      "super": "linux"
-    }
+[
+  {
+    "id": "windows-ia32",
+    "displayName": "x86 Windows",
+    "instructions": ""
   },
-  "supers": {
-    "windows": {
-      "instructions": ""
-    },
-    "linux": {
-      "instructions": ""
-    },
-    "macos": {
-      "instructions": ""
-    }
+  {
+    "id": "windows-x64",
+    "displayName": "x64 Windows",
+    "instructions": ""
+  },
+  {
+    "id": "linux-ia32",
+    "displayName": "x86 Linux",
+    "instructions": ""
+  },
+  {
+    "id": "linux-x64",
+    "displayName": "x64 Linux",
+    "instructions": ""
+  },
+  {
+    "id": "linux-arm",
+    "displayName": "ARM Linux",
+    "instructions": ""
+  },
+  {
+    "id": "static-linux-x64",
+    "displayName": "x64 Linux (Static GLibC)",
+    "instructions": ""
+  },
+  {
+    "id": "macos-ia32",
+    "displayName": "x86 Mac OS",
+    "instructions": ""
+  },
+  {
+    "id": "macos-x64",
+    "displayName": "x64 Mac OS",
+    "instructions": ""
+  },
+  {
+    "id": "dreamplug",
+    "displayName": "Dreamplug",
+    "instructions": ""
+  },
+  {
+    "id": "mips-ci20",
+    "displayName": "MIPS Creator CI20",
+    "instructions": ""
+  },
+  {
+    "id": "am335x",
+    "displayName": "am335x",
+    "instructions": ""
   }
-}
+]
