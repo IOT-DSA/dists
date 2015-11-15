@@ -1,37 +1,59 @@
 {
   "platforms": {
     "windows-ia32": {
-      "displayName": "x86 Windows"
+      "displayName": "x86 Windows",
+      "super": "windows"
     },
     "windows-x64": {
-      "displayName": "x64 Windows"
+      "displayName": "x64 Windows",
+      "super": "windows"
     },
     "linux-ia32": {
-      "displayName": "x86 Linux"
+      "displayName": "x86 Linux",
+      "super": "linux"
     },
     "linux-x64": {
-      "displayName": "x64 Linux"
+      "displayName": "x64 Linux",
+      "super": "linux"
     },
     "linux-arm": {
-      "displayName": "ARM Linux"
+      "displayName": "ARM Linux",
+      "super": "linux"
     },
     "static-linux-x64": {
-      "displayName": "x64 Linux (Static GLibC)"
+      "displayName": "x64 Linux (Static GLibC)",
+      "super": "linux"
     },
     "macos-ia32": {
-      "displayName": "x86 Mac OS"
+      "displayName": "x86 Mac OS",
+      "super": "macos"
     },
     "macos-x64": {
-      "displayName": "x64 Mac OS"
+      "displayName": "x64 Mac OS",
+      "super": "macos"
     },
     "dreamplug": {
-      "displayName": "Dreamplug"
+      "displayName": "Dreamplug",
+      "super": "linux"
     },
     "mips-ci20": {
-      "displayName": "MIPS Creator CI20"
+      "displayName": "MIPS Creator CI20",
+      "super": "linux"
     },
     "am335x": {
-      "displayName": "am335x"
+      "displayName": "am335x",
+      "super": "linux"
+    }
+  },
+  "supers": {
+    "windows": {
+      "instructions": ""
+    },
+    "linux": {
+      "instructions": ""
+    },
+    "macos": {
+      "instructions": ""
     }
   }
 }
