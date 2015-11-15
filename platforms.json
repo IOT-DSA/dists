@@ -1,0 +1,37 @@
+{
+  "platforms": {
+    "windows-ia32": {
+      "displayName": "x86 Windows"
+    },
+    "windows-x64": {
+      "displayName": "x64 Windows"
+    },
+    "linux-ia32": {
+      "displayName": "x86 Linux"
+    },
+    "linux-x64": {
+      "displayName": "x64 Linux"
+    },
+    "linux-arm": {
+      "displayName": "ARM Linux"
+    },
+    "static-linux-x64": {
+      "displayName": "x64 Linux (Static GLibC)"
+    },
+    "macos-ia32": {
+      "displayName": "x86 Mac OS"
+    },
+    "macos-x64": {
+      "displayName": "x64 Mac OS"
+    },
+    "dreamplug": {
+      "displayName": "Dreamplug"
+    },
+    "mips-ci20": {
+      "displayName": "MIPS Creator CI20"
+    },
+    "am335x": {
+      "displayName": "am335x"
+    }
+  }
+}
