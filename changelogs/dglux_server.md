@@ -1,5 +1,11 @@
 # DGLux Server Changelog
 
+## 638
+
+- User Management
+- Cleanup Logs
+- Performance Improvements
+
 ## 574
 
 - Add `path` metric to links in /sys/links which provides the node path to the link.
