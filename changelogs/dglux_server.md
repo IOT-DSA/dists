@@ -1,5 +1,9 @@
 # DGLux Server Changelog
 
+## 643
+
+- IPv6 Support
+
 ## 638
 
 - User Management
