@@ -1,14 +1,31 @@
 # DGLux Server Changelog
 
+## 677
+
+- Fix an issue where failing to fetch dependencies could prevent other DSLinks from starting
+
+## 676
+
+- Track revisions of links from the repository.
+- Only update links that have an update.
+
+## 674
+
+- Use the `gzip` command if it is available to compress log files.
+
+## 671
+
+- Solve a potential leak of sockets in the Server Watcher's uptime checking functionality.
+
 ## 643
 
-- IPv6 Support
+- IPv6 Support.
 
 ## 638
 
-- User Management
-- Cleanup Logs
-- Performance Improvements
+- First cut of User Management.
+- Cleanup Log Output.
+- Improve Performance.
 
 ## 574
 
