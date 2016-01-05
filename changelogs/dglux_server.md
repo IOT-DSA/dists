@@ -2,7 +2,7 @@
 
 ## 677
 
-- Fix an issue where failing to fetch dependencies could prevent other DSLinks from starting
+- Fix an issue where failing to fetch dependencies could prevent other DSLinks from starting.
 
 ## 676
 
