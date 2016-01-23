@@ -11,7 +11,8 @@
         "users",
         "configure",
         "projects",
-        "server_watcher"
+        "server_watcher",
+        "update"
       ],
       "directoryName": "dglux-server",
       "update": {
