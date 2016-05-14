@@ -1,0 +1,26 @@
+{
+  "dists": {
+    "dglux_server": {
+      "displayName": "DGLux Server",
+      "latest": "913",
+      "release": "802",
+      "file": "dglux_server.zip",
+      "wrappers": [
+        "dglux_server",
+        "daemon",
+        "users",
+        "configure",
+        "projects",
+        "server_watcher",
+        "update"
+      ],
+      "directoryName": "dglux-server",
+      "update": {
+        "ignore": [
+          "bin/tools/nssm-x32.exe",
+          "bin/tools/nssm-x64.exe"
+        ]
+      }
+    }
+  }
+}
