@@ -1,0 +1,21 @@
+{
+  "bundle": {
+    "into": "dart-sdk"
+  },
+  "define": {
+    "version": "1.14.2",
+    "stable-channel": "https://commondatastorage.googleapis.com/dart-archive/channels/stable"
+  },
+  "platforms": {
+    "linux-armv7": {
+      "displayName": "Linux ARMv7",
+      "devices": [
+        "Raspberry Pi 2"
+      ],
+      "os": "linux",
+      "arch": "armv7",
+      "family": "arm",
+      "dist": "${stable-channel}/release/${version}/sdk/dartsdk-arm-linux-release.zip"
+    }
+  }
+}
