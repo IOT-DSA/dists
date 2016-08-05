@@ -2,7 +2,7 @@
   "dists": {
     "dglux_server": {
       "displayName": "DGLux Server",
-      "latest": "990",
+      "latest": "991",
       "release": "802",
       "file": "dglux_server.zip",
       "wrappers": [
