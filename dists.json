@@ -12,7 +12,8 @@
         "configure",
         "projects",
         "server_watcher",
-        "update"
+        "update",
+        "letsencrypt"
       ],
       "directoryName": "dglux-server",
       "update": {
