@@ -1,6 +1,6 @@
 {
   "dists": {
-    "dglux_server": {
+    "dsa_server": {
       "displayName": "DSA Server + Atrius Solution Builder",
       "latest": "1144",
       "release": "1144",
