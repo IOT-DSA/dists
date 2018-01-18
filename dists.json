@@ -22,6 +22,30 @@
           "bin/tools/nssm-x64.exe"
         ]
       }
-    }
+    },
+    "dglux_server": {
+      "displayName": "DGLux Server + DGLux",
+      "archived": true,
+      "latest": "1143",
+      "release": "1142",
+      "file": "dglux_server.zip",
+      "wrappers": [
+        "dglux_server",
+        "daemon",
+        "users",
+        "configure",
+        "projects",
+        "server_watcher",
+        "update",
+        "letsencrypt"
+      ],
+      "directoryName": "dglux-server",
+      "update": {
+        "ignore": [
+          "bin/tools/nssm-x32.exe",
+          "bin/tools/nssm-x64.exe"
+        ]
+      }
+    }    
   }
 }
