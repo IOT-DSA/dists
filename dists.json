@@ -2,8 +2,8 @@
   "dists": {
     "dsa_server": {
       "displayName": "DSA Server + Atrius Solution Builder",
-      "latest": "1144",
-      "release": "1144",
+      "latest": "${BUILD_NUMBER}",
+      "release": "${BUILD_NUMBER}",
       "file": "dsa_server.zip",
       "wrappers": [
         "dglux_server",
@@ -46,6 +46,6 @@
           "bin/tools/nssm-x64.exe"
         ]
       }
-    }    
+    }
   }
 }
