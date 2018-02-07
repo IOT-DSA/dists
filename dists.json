@@ -2,8 +2,8 @@
   "dists": {
     "dsa_server": {
       "displayName": "DSA Server + Atrius Solution Builder",
-      "latest": "${BUILD_NUMBER}",
-      "release": "${BUILD_NUMBER}",
+      "latest": "1149",
+      "release": "1149",
       "file": "dsa_server.zip",
       "wrappers": [
         "dglux_server",
