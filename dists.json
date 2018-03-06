@@ -26,8 +26,8 @@
     "dglux_server": {
       "displayName": "DGLux Server + DGLux",
       "archived": true,
-      "latest": "1145",
-      "release": "1142",
+      "latest": "1146",
+      "release": "1146",
       "file": "dglux_server.zip",
       "wrappers": [
         "dglux_server",
