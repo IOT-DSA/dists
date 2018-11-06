@@ -2,8 +2,8 @@
   "dists": {
     "dsa_server": {
       "displayName": "DSA Server + DG Solution Builder",
-      "latest": "1305",
-      "release": "1305",
+      "latest": "1328",
+      "release": "1328",
       "file": "dsa_server.zip",
       "wrappers": [
         "dglux_server",
