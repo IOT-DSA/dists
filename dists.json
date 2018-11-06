@@ -1,7 +1,7 @@
 {
   "dists": {
     "dsa_server": {
-      "displayName": "DSA Server + Atrius Solution Builder",
+      "displayName": "DSA Server + DG Solution Builder",
       "latest": "1305",
       "release": "1305",
       "file": "dsa_server.zip",
