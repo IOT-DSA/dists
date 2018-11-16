@@ -2,8 +2,8 @@
   "dists": {
     "dsa_server": {
       "displayName": "DSA Server + DG Solution Builder",
-      "latest": "1330",
-      "release": "1330",
+      "latest": "1332",
+      "release": "1332",
       "file": "dsa_server.zip",
       "wrappers": [
         "dglux_server",
@@ -26,8 +26,8 @@
     "dglux_server": {
       "displayName": "DSA Server + DGLux",
       "archived": true,
-      "latest": "1165",
-      "release": "1165",
+      "latest": "1332",
+      "release": "1332",
       "file": "dglux_server.zip",
       "wrappers": [
         "dglux_server",
