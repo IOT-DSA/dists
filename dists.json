@@ -24,7 +24,7 @@
       }
     },
     "dglux_server": {
-      "displayName": "DGLux Server + DGLux",
+      "displayName": "DSA Server + DGLux",
       "archived": true,
       "latest": "1165",
       "release": "1165",
