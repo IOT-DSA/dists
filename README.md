@@ -34,3 +34,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Prevented guest sessions from LDAP.
 - Fixed issues with checking permissions.
 - Fixed logging statement that would fail if a response was already closed.
+
+## [1415] - 2019-03-27
+### Changed
+- Updated DGLux to version 1.1.8750.
