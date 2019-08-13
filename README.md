@@ -10,6 +10,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 - OpenID Connect: "Back-Channel Logout" support.
 
+## [1440] - 2019-08-13
+### Changed
+- Updated [Dart DSLink SDK](https://github.com/IOT-DSA/sdk-dslink-dart) to 1.0.3.
+
+### Fixed
+- Fixed the issue when couldn't find OpenSSL on `C:\` and correctly joined path for Windows.
+- When creating a project from a template, the new project saves category from the template.
+
 ## [1436] - 2019-07-19
 ### Added
 - Extracted KeyCloak roles (realm and client) to "dsaGroups" to expose on the front end.
