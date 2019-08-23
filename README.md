@@ -10,9 +10,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 - OpenID Connect: "Back-Channel Logout" support.
 
-## [1440] - 2019-08-13
+## [1450] - 2019-08-23
+### Added
+- Added accepting the full well-known/openidConfiguration as issuer for OpenID Connect.
+
 ### Changed
 - Updated [Dart DSLink SDK](https://github.com/IOT-DSA/sdk-dslink-dart) to 1.0.3.
+- DGLux now requires browser that supports TLS 1.2.
+- DGLux updated to v1.1.8992.
+- Minor improvements.
 
 ### Fixed
 - Fixed the issue when couldn't find OpenSSL on `C:\` and correctly joined path for Windows.
