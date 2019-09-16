@@ -10,6 +10,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 - OpenID Connect: "Back-Channel Logout" support.
 
+## [1461] - 2019-09-16
+### Changed
+- Minor UI fixes.
+
 ## [1460] - 2019-09-13
 ### Changed
 - DGLux updated to v1.1.9012.
