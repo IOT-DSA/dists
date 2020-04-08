@@ -10,6 +10,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 - OpenID Connect: "Back-Channel Logout" support.
 
+## [1486] - 2020-04-07
+### Added
+- Added "defaultLocale" parameter to server.json config. This parameter sets the default language for the designer.
+
+### Changed
+- DGLux updated to v1.1.9198.
+- Security updates.
+- Improved OpenID Connect authentication.
+- Exposed "formatDg5" config parameter under /sys/config node to change it in run-time.
+
+### Fixed
+- Fixed minor UI issue with 2FA authentication on mobile.
+- Fixed a memory leak when working with large files, like PDF or video formats.
+- Fixed an issue with some mobile browsers not accepted as supporting TLS 1.2.
+
 ## [1461] - 2019-09-16
 ### Changed
 - Minor UI fixes.
