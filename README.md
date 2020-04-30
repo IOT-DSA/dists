@@ -10,6 +10,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 - OpenID Connect: "Back-Channel Logout" support.
 
+## [1488] - 2020-04-30
+### Added
+- New set of all-purpose gauges for the standard widgets **Dashboard** library.
+
 ## [1486] - 2020-04-07
 ### Added
 - Added "defaultLocale" parameter to server.json config. This parameter sets the default language for the designer.
