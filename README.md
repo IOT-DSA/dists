@@ -12,7 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [1489] - 2020-05-18
 ### Changed
-- DGLux updated to v1.1.9235.
+- DGLux updated to version [1.1.9235](http://wiki.dglogik.com/dglux5_wiki:releases:9235).
 
 ## [1488] - 2020-04-30
 ### Added
@@ -23,7 +23,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Added "defaultLocale" parameter to server.json config. This parameter sets the default language for the designer.
 
 ### Changed
-- DGLux updated to v1.1.9198.
+- DGLux updated to version [1.1.9198](http://wiki.dglogik.com/dglux5_wiki:releases:9198).
 - Security updates.
 - Improved OpenID Connect authentication.
 - Exposed "formatDg5" config parameter under /sys/config node to change it in run-time.
@@ -39,11 +39,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [1460] - 2019-09-13
 ### Changed
-- DGLux updated to v1.1.9012.
+- DGLux updated to verions [1.1.9012](http://wiki.dglogik.com/dglux5_wiki:releases:9012).
 
 ## [1454] - 2019-08-23
 ### Changed
-- DGLux updated to v1.1.8997.
+- DGLux updated to version 1.1.8997.
 
 ## [1450] - 2019-08-23
 ### Added
@@ -52,7 +52,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ### Changed
 - Updated [Dart DSLink SDK](https://github.com/IOT-DSA/sdk-dslink-dart) to 1.0.3.
 - DGLux now requires browser that supports TLS 1.2.
-- DGLux updated to v1.1.8992.
+- DGLux updated to version 1.1.8992.
 - Minor improvements.
 
 ### Fixed
@@ -78,4 +78,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [1415] - 2019-03-27
 ### Changed
-- Updated DGLux to version 1.1.8750.
+- Updated DGLux to version [1.1.8750](http://wiki.dglogik.com/dglux5_wiki:releases:1415).
