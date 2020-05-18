@@ -10,6 +10,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 - OpenID Connect: "Back-Channel Logout" support.
 
+## [1489] - 2020-05-18
+### Changed
+- DGLux updated to v1.1.9235.
+
 ## [1488] - 2020-04-30
 ### Added
 - New set of all-purpose gauges for the standard widgets **Dashboard** library.
