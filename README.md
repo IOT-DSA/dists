@@ -10,6 +10,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 - OpenID Connect: "Back-Channel Logout" support.
 
+## [1493] - 2020-05-20
+### Changed
+- Fixed issues with server-side dataflow
+- DGLux updated to version 1.1.9238.
+- Dataflow DSLink updated to version 1.1.9238.
+
 ## [1489] - 2020-05-18
 ### Changed
 - DGLux updated to version [1.1.9235](http://wiki.dglogik.com/dglux5_wiki:releases:9235).
