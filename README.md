@@ -10,11 +10,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 - OpenID Connect: "Back-Channel Logout" support.
 
+## [1494] - 2020-05-22
+### Fixed
+- Fixed issue with dslink name not accepting dash "-".
+
 ## [1493] - 2020-05-20
 ### Changed
-- Fixed issues with server-side dataflow
 - DGLux updated to version 1.1.9238.
 - Dataflow DSLink updated to version 1.1.9238.
+
+### Fixed
+- Fixed issues with the server-side dataflow.
 
 ## [1489] - 2020-05-18
 ### Changed
