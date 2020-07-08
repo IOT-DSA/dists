@@ -10,6 +10,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 ## [Unreleased]
 - OpenID Connect: "Back-Channel Logout" support.
 
+## [1506] - 2020-07-08
+### Changed
+- Improved large file handling on the server-side to prevent timeout on a slow connection.
+- Improved Azure AD B2C authentication over OpenID Connect.
+
+### Fixed
+- Fixed file API issue.
+
 ## [1494] - 2020-05-22
 ### Fixed
 - Fixed issue with dslink name not accepting dash "-".
