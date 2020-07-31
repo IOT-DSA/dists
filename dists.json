@@ -26,8 +26,8 @@
     "dglux_server": {
       "displayName": "DSA Server + DGLux",
       "archived": true,
-      "latest": "1506",
-      "release": "1506",
+      "latest": "1514",
+      "release": "1514",
       "file": "dglux_server.zip",
       "wrappers": [
         "dglux_server",
