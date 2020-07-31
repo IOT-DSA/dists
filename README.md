@@ -8,7 +8,15 @@ All notable changes to this project will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
+- Flexible default password requirements management.
+
+## [1514] - 2020-07-31
+### Added
 - OpenID Connect: "Back-Channel Logout" support.
+- When using OpenID Connect authentication, server stores page URL in browser on logout. Later user returns to the same project when logs back in.
+
+### Changed
+- Updated dsbroker dependency to 1.1.3.
 
 ## [1506] - 2020-07-08
 ### Changed
