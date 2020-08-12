@@ -24,7 +24,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Improved Azure AD B2C authentication over OpenID Connect.
 
 ### Fixed
-- Fixed file API issue.
+- Fixed a directory traversal vulnerability within the REST API component. The vulnerability impacts DGLux Server builds 1494 and prior. It can be exploited by an authenticated, remote attacker with sufficient privileges to access the file upload, move, and copy features of the server. Unauthenticated, and default user level privileges are insufficient to exploit the issue. This issue only impacts installations configured to utilize the DGLux Server, no other configurations are impacted. 
+  - DGLux Server, also known as DSA Server is one of multiple backends that can be configured to support the DGLux5 web application.  This issue only impacts installations configured to utilize the DGLux Server, no other configurations are impacted.
+  - The extended impact of the vulnerability will depend on the particular installation that was performed. Best practices advise to install DGLux Server under a limited service account. However, there are no technical controls to prevent the product from being installed under a privileged account such as root. An attacker who successfully exploits the vulnerability could upload, and then move or copy an arbitrary file to any location that the DGLux Server account can access. If this is a privileged account the attacker may be able to write to any arbitrary directory on the system.
+  - DGLux Server can be configured to perform up and downstream configuration management to similar DGLux Server instances. The vulnerable REST API methods are limited to impacting the local file system of an impacted server and cannot be utilized to impact associated server instances.
 
 ## [1494] - 2020-05-22
 ### Fixed
