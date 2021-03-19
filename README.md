@@ -8,7 +8,35 @@ All notable changes to this project will be documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [Unreleased]
-- Flexible default password requirements management.
+- Improvements for Auth0 SSO integration.
+- Update server from URL action.
+
+## [1573] - 2021-03-19
+### Added
+- Simplified password requirements management for the server. The only default requirement is password length should be 8 characters. The following [settings](https://github.com/IOT-DSA/docs/wiki/DSA-Server-Options#password_requirements) are available now in `server.json`:
+  - Set required password length.
+  - Require numbers.
+  - Require upper and lower case characters.
+  - Require special symbols.
+- Added reset 2FA function on a user node. 
+- Enabled rotation for DSLink log files.
+- Added user authentication details logging, including timestamp, IP address, username, success/failure. To enable use [loginAudit](https://github.com/IOT-DSA/docs/wiki/DSA-Server-Options#loginaudit) parameter in `server.json`.
+
+### Changed
+- Changed timeout to 5 min when loading larger files by the frontend application.
+- Removed old brand names from the server outputs. The server will keep only one web application folder, **dglux5**.
+- Disallowed special characters in user names.
+- Removed passwords in audit logs when creating a user, forcing a password reset, and changing a password.
+- Disabled DGLux server verbose error messages when not in debug mode.
+
+### Fixed
+- Fixed session issue when the server is working in the SSO mode.
+- Fixed an issue when not all user tokens were removed from JSON files when deleting a user.
+- Fixed an issue when a broker is using two tokens at the same time for the upstream connection.
+- Fixed a problem when an internal error was shown when manually log out using `/logout` URI.
+- Fixed an issue when installing dslink using the Javascript SDK wasn't correctly reported.
+- Fixed several issues when invoking SDK functions. New records were not always added or correctly reported back while creating users and tokens under certain conditions.
+- Fixed issue when uptime manager was failing when using a proxy.
 
 ## [1514] - 2020-07-31
 ### Added
