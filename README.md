@@ -28,6 +28,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - Disallowed special characters in user names.
 - Removed passwords in audit logs when creating a user, forcing a password reset, and changing a password.
 - Disabled DGLux server verbose error messages when not in debug mode.
+- DGLux updated to version 1.1.9443.
 
 ### Fixed
 - Fixed session issue when the server is working in the SSO mode.
